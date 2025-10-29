@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { services } from '../data';
+import { services } from '../data/services/servics';
 import { ServiceCard } from '../components/Cards';
 
 const ServicesPage: React.FC = () => {

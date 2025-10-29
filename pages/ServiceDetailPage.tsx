@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { services, workers } from '../data';
+import {  workers } from '../data/services/workers';
+import { services } from '../data/services/servics';
 import { WorkerCard } from '../components/Cards';
 import type { Service, Worker } from '../types';
 import NotFoundPage from './NotFoundPage';

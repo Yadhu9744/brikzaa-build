@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { materials } from '../data';
+import { materials } from '../data/materials/materials';
 import { MaterialCard } from '../components/Cards';
 import type { Material } from '../types';
 

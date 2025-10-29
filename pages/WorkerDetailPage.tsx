@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { workers, services } from '../data';
-import type { Worker } from '../types';
+import {  workers } from '../data/services/workers';
+import { services } from '../data/services/servics';import type { Worker } from '../types';
 import { BriefcaseIcon, LocationIcon, PhoneIcon, UserIcon } from '../components/Icons';
 import NotFoundPage from './NotFoundPage';
 
