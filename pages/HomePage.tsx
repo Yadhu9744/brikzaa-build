@@ -7,7 +7,7 @@ const HomePage: React.FC = () => {
     <div className="relative text-center bg-slate-200 dark:bg-slate-800 overflow-hidden">
       <div 
         className="absolute inset-0 bg-cover bg-center" 
-        style={{backgroundImage: "url('https://picsum.photos/seed/construct/1920/1080')", opacity: 0.2}}
+        style={{backgroundImage: "url('https://t3.ftcdn.net/jpg/01/88/67/32/360_F_188673280_69cCvYgLg03JsTWTEuKq1duuNHn3amWW.jpg')", opacity: 0.2}}
       ></div>
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
         <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-5xl md:text-6xl">
