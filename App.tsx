@@ -21,6 +21,7 @@ import MaterialsDetailsPage from "./pages/MaterialDetailPage";
 import CartPage from "./pages/CartPage";
 import BookingPage from "./pages/BookingPage";
 import ThankYouPage from "./pages/ThankYouPage";
+import MessageFormPage from "./pages/MessageFormPage";
 
 // ✅ ProtectedRoute ensures that only logged-in users can access certain pages
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({
@@ -47,6 +48,7 @@ function App() {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/materials" element={<MaterialsPage />} />
               <Route path="/materials/:id" element={<MaterialsDetailsPage />} />
+              <Route path="/message/:workerId" element={<MessageFormPage />} />
               <Route path="/services" element={<ServicesPage />} />
               <Route
                 path="/services/:serviceId"

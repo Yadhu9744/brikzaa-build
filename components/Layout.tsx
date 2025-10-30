@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { NavLink, Link, useNavigate } from "react-router-dom";
-import { useTheme } from "../hooks";
-import { useAuth } from "../hooks";
-import { SunIcon, MoonIcon, HammerIcon } from "./Icons";
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+
+import React, { useState } from 'react';
+import { NavLink, Link, useNavigate } from 'react-router-dom';
+import { useTheme } from '../hooks';
+import { useAuth } from '../hooks';
+import { SunIcon,  HammerIcon, MoonIcon } from './Icons';
 
 const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
