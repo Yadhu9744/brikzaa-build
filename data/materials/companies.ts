@@ -6,7 +6,7 @@ export const companies: Company[] = [
   {
     id: 'c_a1',
     name: 'Apex Cement Co.',
-    logo: 'https://picsum.photos/seed/apex/120/120',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3o01a2Ejq4XDix42hYPFk03MbnGYwob15Q&s',
     location: 'Mumbai',
     website: 'https://apexcement.example',
     rating: 4.6,
@@ -15,7 +15,7 @@ export const companies: Company[] = [
   {
     id: 'c_a2',
     name: 'UltraCem Pvt Ltd',
-    logo: 'https://picsum.photos/seed/ultracem/120/120',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjePy6CWyGKPiJL6ZWosrTRUS34rwR8fYBfA&s',
     location: 'Chennai',
     website: 'https://ultracem.example',
     rating: 4.7,
@@ -24,7 +24,7 @@ export const companies: Company[] = [
   {
     id: 'c_a3',
     name: 'GreenBind Cement',
-    logo: 'https://picsum.photos/seed/greenbind/120/120',
+    logo: 'https://mma.prnewswire.com/media/1594689/GreenCement_Logo3B_PDF_Logo.jpg',
     location: 'Bengaluru',
     website: 'https://greenbind.example',
     rating: 4.4,
@@ -35,7 +35,7 @@ export const companies: Company[] = [
   {
     id: 's_a1',
     name: 'RiverStone Supplies',
-    logo: 'https://picsum.photos/seed/riverstone/120/120',
+    logo: 'https://www.shutterstock.com/shutterstock/photos/1351796927/display_1500/stock-vector-river-and-stone-logo-design-1351796927.jpg',
     location: 'Kochi',
     website: 'https://riverstone.example',
     rating: 4.5,
@@ -44,7 +44,7 @@ export const companies: Company[] = [
   {
     id: 's_a2',
     name: 'BlueSand Traders',
-    logo: 'https://picsum.photos/seed/bluesand/120/120',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe2aO0VCRlUAknL7eZ-TJNSdzxEoNZEsqtiP1oeMMesPFnTGSnWu0MURM9aGXFfnlQ-NM&usqp=CAU',
     location: 'Hyderabad',
     website: 'https://bluesand.example',
     rating: 4.2,
@@ -53,7 +53,7 @@ export const companies: Company[] = [
   {
     id: 's_a3',
     name: 'Granulite Aggregates',
-    logo: 'https://picsum.photos/seed/granulite/120/120',
+    logo: 'https://media.zenfs.com/en/us.finance.gurufocus/6f8272ab12873fc73a6f812bbfe671d3',
     location: 'Pune',
     website: 'https://granulite.example',
     rating: 4.3,
@@ -64,7 +64,7 @@ export const companies: Company[] = [
   {
     id: 'st_a1',
     name: 'SteelCorp Ltd',
-    logo: 'https://picsum.photos/seed/steelcorp/120/120',
+    logo: 'https://pbs.twimg.com/profile_images/1265077442886000640/INAjJbQ__400x400.jpg',
     location: 'Surat',
     website: 'https://steelcorp.example',
     rating: 4.8,
@@ -73,7 +73,7 @@ export const companies: Company[] = [
   {
     id: 'st_a2',
     name: 'IronWorks Pvt',
-    logo: 'https://picsum.photos/seed/ironworks/120/120',
+    logo: 'https://yt3.googleusercontent.com/ytc/AIdro_mGKOhbehjxLmng0Q45HnntScxWWwa1wDZKlaa0Bv0hLA=s900-c-k-c0x00ffffff-no-rj',
     location: 'Vadodara',
     website: 'https://ironworks.example',
     rating: 4.5,
@@ -82,7 +82,7 @@ export const companies: Company[] = [
   {
     id: 'st_a3',
     name: 'MegaMetal Co.',
-    logo: 'https://picsum.photos/seed/megametal/120/120',
+    logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQHurPWKkiR7bw/company-logo_200_200/company-logo_200_200/0/1700649569006?e=2147483647&v=beta&t=uW1t9f-mOZGDD8NdpbCtuybIsy8LG_IV5Dym02QoG0w',
     location: 'Rourkela',
     website: 'https://megametal.example',
     rating: 4.4,
@@ -93,7 +93,7 @@ export const companies: Company[] = [
   {
     id: 'b_a1',
     name: 'BrickMasters Co.',
-    logo: 'https://picsum.photos/seed/brickmasters/120/120',
+    logo: 'https://img1.wsimg.com/isteam/ip/32c8a1f5-cfac-4e38-8fe7-67852071a4c7/Logo%20Big.png',
     location: 'Kolkata',
     website: 'https://brickmasters.example',
     rating: 4.3,
@@ -102,117 +102,358 @@ export const companies: Company[] = [
   {
     id: 'b_a2',
     name: 'ClayWorks Ltd',
-    logo: 'https://picsum.photos/seed/clayworks/120/120',
+    logo: 'https://static1.squarespace.com/static/5a3a779318b27de332e70966/t/6661be516506f8625d4c14e2/1759256757082/',
     location: 'Lucknow',
     website: 'https://clayworks.example',
     rating: 4.1,
     materialsSupplied: ['bricks']
   },
 
-  // ⚙️ Metal suppliers
+    // 🪨 Floor Tiles
   {
-    id: 'm1',
-    name: 'IronTech Metals',
-    logo: 'https://picsum.photos/seed/irontech/120/120',
-    location: 'Jamshedpur',
-    website: 'https://irontech.example',
-    rating: 4.7,
-    materialsSupplied: ['metal']
-  },
-  {
-    id: 'm2',
-    name: 'Galaxy Metals Pvt Ltd',
-    logo: 'https://picsum.photos/seed/galaxymetals/120/120',
-    location: 'Delhi',
-    website: 'https://galaxymetals.example',
-    rating: 4.5,
-    materialsSupplied: ['metal']
-  },
-  {
-    id: 'm3',
-    name: 'Vulcan Steel & Metalworks',
-    logo: 'https://picsum.photos/seed/vulcan/120/120',
-    location: 'Bhilai',
-    website: 'https://vulcanmetal.example',
-    rating: 4.6,
-    materialsSupplied: ['metal']
-  },
-
-  // 🧵 Fiber suppliers
-  {
-    id: 'f1',
-    name: 'FiberGrid Solutions',
-    logo: 'https://picsum.photos/seed/fibergrid/120/120',
-    location: 'Coimbatore',
-    website: 'https://fibergrid.example',
-    rating: 4.6,
-    materialsSupplied: ['fibers']
-  },
-  {
-    id: 'f2',
-    name: 'ReinforceTech Fibers',
-    logo: 'https://picsum.photos/seed/reinforce/120/120',
-    location: 'Pune',
-    website: 'https://reinforcetech.example',
-    rating: 4.5,
-    materialsSupplied: ['fibers']
-  },
-  {
-    id: 'f3',
-    name: 'GlassMat Industries',
-    logo: 'https://picsum.photos/seed/glassmat/120/120',
-    location: 'Ahmedabad',
-    website: 'https://glassmat.example',
+    id: 'c_b1',
+    name: 'TileWorld Industries',
+    logo: 'https://picsum.photos/seed/tileworld/120/120',
+    location: 'Kochi',
+    website: 'https://tileworld.example',
     rating: 4.4,
-    materialsSupplied: ['fibers']
-  },
-
-  // ⚡ Electronics / Electricals
-  {
-    id: 'e1',
-    name: 'VoltLine Electric Co.',
-    logo: 'https://picsum.photos/seed/voltline/120/120',
-    location: 'Bangalore',
-    website: 'https://voltline.example',
-    rating: 4.8,
-    materialsSupplied: ['electronics']
+    materialsSupplied: ['floor tiles'],
   },
   {
-    id: 'e2',
-    name: 'SparkTech Components',
-    logo: 'https://picsum.photos/seed/sparktech/120/120',
-    location: 'Hyderabad',
-    website: 'https://sparktech.example',
+    id: 'c_b2',
+    name: 'FloorX Ceramics',
+    logo: 'https://picsum.photos/seed/floorx/120/120',
+    location: 'Ahmedabad',
+    website: 'https://floorx.example',
     rating: 4.6,
-    materialsSupplied: ['electronics']
+    materialsSupplied: ['tiles'],
   },
   {
-    id: 'e3',
-    name: 'ElectroBuild Supplies',
-    logo: 'https://picsum.photos/seed/electrobuild/120/120',
-    location: 'Chandigarh',
-    website: 'https://electrobuild.example',
+    id: 'c_b3',
+    name: 'RoyalTile Pvt Ltd',
+    logo: 'https://picsum.photos/seed/royaltile/120/120',
+    location: 'Bangalore',
+    website: 'https://royaltile.example',
     rating: 4.5,
-    materialsSupplied: ['electronics']
+    materialsSupplied: ['floor tiles'],
   },
 
-  // 🏗️ Mixed suppliers (multi-material)
+  // 🎨 Interior Paint
+  {
+    id: 'c_c1',
+    name: 'ColorMax Paints',
+    logo: 'https://picsum.photos/seed/colormax/120/120',
+    location: 'Pune',
+    website: 'https://colormax.example',
+    rating: 4.7,
+    materialsSupplied: ['interior paint'],
+  },
+  {
+    id: 'c_c2',
+    name: 'PureShade Coats',
+    logo: 'https://picsum.photos/seed/pureshade/120/120',
+    location: 'Hyderabad',
+    website: 'https://pureshade.example',
+    rating: 4.5,
+    materialsSupplied: ['interior paint'],
+  },
+  {
+    id: 'c_c3',
+    name: 'BrightWall Finishes',
+    logo: 'https://picsum.photos/seed/brightwall/120/120',
+    location: 'Jaipur',
+    website: 'https://brightwall.example',
+    rating: 4.6,
+    materialsSupplied: ['interior paint'],
+  },
+
+  // 🪵 Plywood Sheets
+  {
+    id: 'c_d1',
+    name: 'PlyPro Sheets Co.',
+    logo: 'https://picsum.photos/seed/plypro/120/120',
+    location: 'Bangalore',
+    website: 'https://plypro.example',
+    rating: 4.5,
+    materialsSupplied: ['plywood sheets'],
+  },
+  {
+    id: 'c_d2',
+    name: 'WoodCraft Ply',
+    logo: 'https://picsum.photos/seed/woodcraft/120/120',
+    location: 'Delhi',
+    website: 'https://woodcraft.example',
+    rating: 4.6,
+    materialsSupplied: ['plywood sheets'],
+  },
+  {
+    id: 'c_d3',
+    name: 'GreenEdge Panels',
+    logo: 'https://picsum.photos/seed/greenedge/120/120',
+    location: 'Kolkata',
+    website: 'https://greenedge.example',
+    rating: 4.4,
+    materialsSupplied: ['plywood sheets'],
+  },
+
+  // 🧵 PVC Pipes
+  {
+    id: 'c_e1',
+    name: 'FlowLine Pipes',
+    logo: 'https://picsum.photos/seed/flowline/120/120',
+    location: 'Chennai',
+    website: 'https://flowline.example',
+    rating: 4.3,
+    materialsSupplied: ['pvc pipes'],
+  },
+  {
+    id: 'c_e2',
+    name: 'AquaFlow Industries',
+    logo: 'https://picsum.photos/seed/aquaflow/120/120',
+    location: 'Surat',
+    website: 'https://aquaflow.example',
+    rating: 4.5,
+    materialsSupplied: ['pvc pipes'],
+  },
+  {
+    id: 'c_e3',
+    name: 'PipePro Solutions',
+    logo: 'https://picsum.photos/seed/pipepro/120/120',
+    location: 'Nagpur',
+    website: 'https://pipepro.example',
+    rating: 4.4,
+    materialsSupplied: ['pvc pipes'],
+  },
+
+  // 🧲 Galvanized Metal Sheets
+  {
+    id: 'c_f1',
+    name: 'MetalGuard Roofing',
+    logo: 'https://picsum.photos/seed/metalguard/120/120',
+    location: 'Delhi',
+    website: 'https://metalguard.example',
+    rating: 4.8,
+    materialsSupplied: ['galvanized metal sheets'],
+  },
+  {
+    id: 'c_f2',
+    name: 'SteelWave Metals',
+    logo: 'https://picsum.photos/seed/steelwave/120/120',
+    location: 'Pune',
+    website: 'https://steelwave.example',
+    rating: 4.7,
+    materialsSupplied: ['galvanized metal sheets'],
+  },
+  {
+    id: 'c_f3',
+    name: 'IronShield Sheets',
+    logo: 'https://picsum.photos/seed/ironshield/120/120',
+    location: 'Hyderabad',
+    website: 'https://ironshield.example',
+    rating: 4.6,
+    materialsSupplied: ['galvanized metal sheets'],
+  },
+
+  // 🪟 Fiberglass Panels
+  {
+    id: 'c_g1',
+    name: 'FiberTech Panels',
+    logo: 'https://picsum.photos/seed/fibertech/120/120',
+    location: 'Kolkata',
+    website: 'https://fibertech.example',
+    rating: 4.5,
+    materialsSupplied: ['fiberglass panels'],
+  },
+  {
+    id: 'c_g2',
+    name: 'GlassFlex Composites',
+    logo: 'https://picsum.photos/seed/glassflex/120/120',
+    location: 'Surat',
+    website: 'https://glassflex.example',
+    rating: 4.4,
+    materialsSupplied: ['fiberglass panels'],
+  },
+  {
+    id: 'c_g3',
+    name: 'FiberMate Co.',
+    logo: 'https://picsum.photos/seed/fibermate/120/120',
+    location: 'Mumbai',
+    website: 'https://fibermate.example',
+    rating: 4.6,
+    materialsSupplied: ['fiberglass panels'],
+  },
+
+  // 🧱 Aluminium Section
+  {
+    id: 'c_h1',
+    name: 'AluForm Sections',
+    logo: 'https://picsum.photos/seed/aluform/120/120',
+    location: 'Surat',
+    website: 'https://aluform.example',
+    rating: 4.6,
+    materialsSupplied: ['aluminium section'],
+  },
+  {
+    id: 'c_h2',
+    name: 'MetalLite Structures',
+    logo: 'https://picsum.photos/seed/metallite/120/120',
+    location: 'Bangalore',
+    website: 'https://metallite.example',
+    rating: 4.5,
+    materialsSupplied: ['aluminium section'],
+  },
+  {
+    id: 'c_h3',
+    name: 'AlloyEdge Industries',
+    logo: 'https://picsum.photos/seed/alloyedge/120/120',
+    location: 'Hyderabad',
+    website: 'https://alloyedge.example',
+    rating: 4.7,
+    materialsSupplied: ['aluminium section'],
+  },
+
+  // ⚡ Copper Electrical Wire
+  {
+    id: 'c_i1',
+    name: 'CopperLine Wires',
+    logo: 'https://picsum.photos/seed/copperline/120/120',
+    location: 'Jaipur',
+    website: 'https://copperline.example',
+    rating: 4.4,
+    materialsSupplied: ['copper electrical wire'],
+  },
   {
     id: 'mix1',
     name: 'BuildPro Suppliers',
-    logo: 'https://picsum.photos/seed/buildpro/120/120',
+    logo: 'https://play-lh.googleusercontent.com/nWtWwhmihZDUtKnYSTR3FI4q4g2SyhfnJJSIauAntMDaWKsub0aq7ghuiBu1cIUmcYMTL-s4JtEzt_FIECy1',
     location: 'Delhi',
-    website: 'https://buildpro.example',
-    rating: 4.5,
-    materialsSupplied: ['sand', 'cement', 'bricks']
+    website: 'https://wiremax.example',
+    rating: 4.6,
+    materialsSupplied: ['copper electrical wire'],
   },
+  {
+    id: 'c_i3',
+    name: 'VoltPro Conductors',
+    logo: 'https://picsum.photos/seed/voltpro/120/120',
+    location: 'Chennai',
+    website: 'https://voltpro.example',
+    rating: 4.5,
+    materialsSupplied: ['copper electrical wire'],
+  },
+
+  // 🔌 Modular Switch Set
   {
     id: 'mix2',
     name: 'AllMaterials Hub',
-    logo: 'https://picsum.photos/seed/allmat/120/120',
+    logo: 'https://www.logoai.com/uploads/output/2023/04/28/075e65f4e6419513108931682b7fffab.jpg',
     location: 'Ahmedabad',
-    website: 'https://allmat.example',
-    rating: 4.2,
-    materialsSupplied: ['cement', 'steel', 'metal', 'fibers', 'electronics']
-  }
+    website: 'https://switchsmart.example',
+    rating: 4.7,
+    materialsSupplied: ['modular switch set'],
+  },
+  {
+    id: 'c_j2',
+    name: 'ElecFlex Switches',
+    logo: 'https://picsum.photos/seed/elecflex/120/120',
+    location: 'Mumbai',
+    website: 'https://elecflex.example',
+    rating: 4.6,
+    materialsSupplied: ['modular switch set'],
+  },
+  {
+    id: 'c_j3',
+    name: 'NovaSwitch Tech',
+    logo: 'https://picsum.photos/seed/novaswitch/120/120',
+    location: 'Kolkata',
+    website: 'https://novaswitch.example',
+    rating: 4.5,
+    materialsSupplied: ['modular switch set'],
+  },
+
+  // ☀️ Solar Panel Kit
+  {
+    id: 'c_k1',
+    name: 'SunVolt Solar Systems',
+    logo: 'https://picsum.photos/seed/sunvolt/120/120',
+    location: 'Trivandrum',
+    website: 'https://sunvolt.example',
+    rating: 4.9,
+    materialsSupplied: ['solar panel kit'],
+  },
+  {
+    id: 'c_k2',
+    name: 'BrightSun Energy',
+    logo: 'https://picsum.photos/seed/brightsun/120/120',
+    location: 'Noida',
+    website: 'https://brightsun.example',
+    rating: 4.7,
+    materialsSupplied: ['solar panel kit'],
+  },
+  {
+    id: 'c_k3',
+    name: 'EcoRay PowerTech',
+    logo: 'https://picsum.photos/seed/ecoray/120/120',
+    location: 'Hyderabad',
+    website: 'https://ecoray.example',
+    rating: 4.8,
+    materialsSupplied: ['solar panel kit'],
+  },
+
+  // 💡 LED Ceiling Lights
+  {
+    id: 'c_l1',
+    name: 'GlowLite LED Works',
+    logo: 'https://picsum.photos/seed/glowlite/120/120',
+    location: 'Nagpur',
+    website: 'https://glowlite.example',
+    rating: 4.6,
+    materialsSupplied: ['led ceiling lights'],
+  },
+  {
+    id: 'c_l2',
+    name: 'BrightBeam Lighting',
+    logo: 'https://picsum.photos/seed/brightbeam/120/120',
+    location: 'Kochi',
+    website: 'https://brightbeam.example',
+    rating: 4.7,
+    materialsSupplied: ['led ceiling lights'],
+  },
+  {
+    id: 'c_l3',
+    name: 'LumiCore Technologies',
+    logo: 'https://picsum.photos/seed/lumicore/120/120',
+    location: 'Delhi',
+    website: 'https://lumicore.example',
+    rating: 4.8,
+    materialsSupplied: ['led ceiling lights'],
+  },
+
+  // 🏠 Smart Home Control Kit
+  {
+    id: 'c_m1',
+    name: 'Smartify Home Controls',
+    logo: 'https://picsum.photos/seed/smartify/120/120',
+    location: 'Noida',
+    website: 'https://smartify.example',
+    rating: 4.8,
+    materialsSupplied: ['smart home control kit'],
+  },
+  {
+    id: 'c_m2',
+    name: 'Domotics Hub Pvt Ltd',
+    logo: 'https://picsum.photos/seed/domotics/120/120',
+    location: 'Pune',
+    website: 'https://domotics.example',
+    rating: 4.7,
+    materialsSupplied: ['smart home control kit'],
+  },
+  {
+    id: 'c_m3',
+    name: 'HomeIQ Systems',
+    logo: 'https://picsum.photos/seed/homeiq/120/120',
+    location: 'Chennai',
+    website: 'https://homeiq.example',
+    rating: 4.9,
+    materialsSupplied: ['smart home control kit'],
+  },
 ];
