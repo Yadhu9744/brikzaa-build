@@ -6,7 +6,7 @@ export const companies: Company[] = [
   {
     id: 'c_a1',
     name: 'Apex Cement Co.',
-    logo: 'https://picsum.photos/seed/apex/120/120',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3o01a2Ejq4XDix42hYPFk03MbnGYwob15Q&s',
     location: 'Mumbai',
     website: 'https://apexcement.example',
     rating: 4.6,
@@ -15,7 +15,7 @@ export const companies: Company[] = [
   {
     id: 'c_a2',
     name: 'UltraCem Pvt Ltd',
-    logo: 'https://picsum.photos/seed/ultracem/120/120',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjePy6CWyGKPiJL6ZWosrTRUS34rwR8fYBfA&s',
     location: 'Chennai',
     website: 'https://ultracem.example',
     rating: 4.7,
@@ -24,7 +24,7 @@ export const companies: Company[] = [
   {
     id: 'c_a3',
     name: 'GreenBind Cement',
-    logo: 'https://picsum.photos/seed/greenbind/120/120',
+    logo: 'https://mma.prnewswire.com/media/1594689/GreenCement_Logo3B_PDF_Logo.jpg',
     location: 'Bengaluru',
     website: 'https://greenbind.example',
     rating: 4.4,
@@ -35,7 +35,7 @@ export const companies: Company[] = [
   {
     id: 's_a1',
     name: 'RiverStone Supplies',
-    logo: 'https://picsum.photos/seed/riverstone/120/120',
+    logo: 'https://www.shutterstock.com/shutterstock/photos/1351796927/display_1500/stock-vector-river-and-stone-logo-design-1351796927.jpg',
     location: 'Kochi',
     website: 'https://riverstone.example',
     rating: 4.5,
@@ -44,7 +44,7 @@ export const companies: Company[] = [
   {
     id: 's_a2',
     name: 'BlueSand Traders',
-    logo: 'https://picsum.photos/seed/bluesand/120/120',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe2aO0VCRlUAknL7eZ-TJNSdzxEoNZEsqtiP1oeMMesPFnTGSnWu0MURM9aGXFfnlQ-NM&usqp=CAU',
     location: 'Hyderabad',
     website: 'https://bluesand.example',
     rating: 4.2,
@@ -53,7 +53,7 @@ export const companies: Company[] = [
   {
     id: 's_a3',
     name: 'Granulite Aggregates',
-    logo: 'https://picsum.photos/seed/granulite/120/120',
+    logo: 'https://media.zenfs.com/en/us.finance.gurufocus/6f8272ab12873fc73a6f812bbfe671d3',
     location: 'Pune',
     website: 'https://granulite.example',
     rating: 4.3,
@@ -64,7 +64,7 @@ export const companies: Company[] = [
   {
     id: 'st_a1',
     name: 'SteelCorp Ltd',
-    logo: 'https://picsum.photos/seed/steelcorp/120/120',
+    logo: 'https://pbs.twimg.com/profile_images/1265077442886000640/INAjJbQ__400x400.jpg',
     location: 'Surat',
     website: 'https://steelcorp.example',
     rating: 4.8,
@@ -73,7 +73,7 @@ export const companies: Company[] = [
   {
     id: 'st_a2',
     name: 'IronWorks Pvt',
-    logo: 'https://picsum.photos/seed/ironworks/120/120',
+    logo: 'https://yt3.googleusercontent.com/ytc/AIdro_mGKOhbehjxLmng0Q45HnntScxWWwa1wDZKlaa0Bv0hLA=s900-c-k-c0x00ffffff-no-rj',
     location: 'Vadodara',
     website: 'https://ironworks.example',
     rating: 4.5,
@@ -82,7 +82,7 @@ export const companies: Company[] = [
   {
     id: 'st_a3',
     name: 'MegaMetal Co.',
-    logo: 'https://picsum.photos/seed/megametal/120/120',
+    logo: 'https://media.licdn.com/dms/image/v2/D4D0BAQHurPWKkiR7bw/company-logo_200_200/company-logo_200_200/0/1700649569006?e=2147483647&v=beta&t=uW1t9f-mOZGDD8NdpbCtuybIsy8LG_IV5Dym02QoG0w',
     location: 'Rourkela',
     website: 'https://megametal.example',
     rating: 4.4,
@@ -93,7 +93,7 @@ export const companies: Company[] = [
   {
     id: 'b_a1',
     name: 'BrickMasters Co.',
-    logo: 'https://picsum.photos/seed/brickmasters/120/120',
+    logo: 'https://img1.wsimg.com/isteam/ip/32c8a1f5-cfac-4e38-8fe7-67852071a4c7/Logo%20Big.png',
     location: 'Kolkata',
     website: 'https://brickmasters.example',
     rating: 4.3,
@@ -102,7 +102,7 @@ export const companies: Company[] = [
   {
     id: 'b_a2',
     name: 'ClayWorks Ltd',
-    logo: 'https://picsum.photos/seed/clayworks/120/120',
+    logo: 'https://static1.squarespace.com/static/5a3a779318b27de332e70966/t/6661be516506f8625d4c14e2/1759256757082/',
     location: 'Lucknow',
     website: 'https://clayworks.example',
     rating: 4.1,
@@ -323,9 +323,9 @@ export const companies: Company[] = [
     materialsSupplied: ['copper electrical wire'],
   },
   {
-    id: 'c_i2',
-    name: 'WireMax India',
-    logo: 'https://picsum.photos/seed/wiremax/120/120',
+    id: 'mix1',
+    name: 'BuildPro Suppliers',
+    logo: 'https://play-lh.googleusercontent.com/nWtWwhmihZDUtKnYSTR3FI4q4g2SyhfnJJSIauAntMDaWKsub0aq7ghuiBu1cIUmcYMTL-s4JtEzt_FIECy1',
     location: 'Delhi',
     website: 'https://wiremax.example',
     rating: 4.6,
@@ -343,9 +343,9 @@ export const companies: Company[] = [
 
   // 🔌 Modular Switch Set
   {
-    id: 'c_j1',
-    name: 'SwitchSmart Solutions',
-    logo: 'https://picsum.photos/seed/switchsmart/120/120',
+    id: 'mix2',
+    name: 'AllMaterials Hub',
+    logo: 'https://www.logoai.com/uploads/output/2023/04/28/075e65f4e6419513108931682b7fffab.jpg',
     location: 'Ahmedabad',
     website: 'https://switchsmart.example',
     rating: 4.7,
