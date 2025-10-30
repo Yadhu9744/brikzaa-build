@@ -1,11 +1,52 @@
-import type {  Service } from '../../types';
-import { HammerIcon, WrenchIcon, BoltIcon, PaintBrushIcon, HardHatIcon } from '../../components/Icons';
-
+import { Service } from "@/types";
 
 export const services: Service[] = [
-  { id: 'plumber', name: 'Plumber', description: 'Expert plumbing installation and repair services.', icon: WrenchIcon },
-  { id: 'electrician', name: 'Electrician', description: 'Certified electrical wiring and fixture installation.', icon: BoltIcon },
-  { id: 'mason', name: 'Mason', description: 'Skilled masonry for brickwork and concrete.', icon: HardHatIcon },
-  { id: 'carpenter', name: 'Carpenter', description: 'Custom carpentry for framing and finishing.', icon: HammerIcon },
-  { id: 'painter', name: 'Painter', description: 'Professional interior and exterior painting.', icon: PaintBrushIcon },
+  {
+    id: "plumber",
+    name: "Plumber",
+    description: "Fix leaks, install pipes, and maintain plumbing systems efficiently.",
+    imageUrl: "/images/workers/plumber.png",
+  },
+  {
+    id: "electrician",
+    name: "Electrician",
+    description: "Expert in wiring, lighting, and safe electrical installations.",
+    imageUrl: "/images/workers/electrician.png",
+  },
+  {
+    id: "carpenter",
+    name: "Carpenter",
+    description: "Skilled woodwork for furniture, doors, and construction frameworks.",
+    imageUrl: "/images/workers/carpenter.png",
+  },
+  {
+    id: "painter",
+    name: "Painter",
+    description: "Professional wall and home painting with smooth finishes.",
+    imageUrl: "/images/workers/painter.png",
+  },
+  {
+    id: "mason",
+    name: "Mason",
+    description: "Expert in brickwork, plastering, and concrete construction.",
+    imageUrl: "/images/workers/mason.png",
+  },
+  {
+    id: "welder",
+    name: "Welder",
+    description: "Metal fabrication and structural welding for all types of projects.",
+    imageUrl: "/images/workers/welder.png",
+  },
+  {
+    id: "tile-worker",
+    name: "Tile Worker",
+    description: "Tile fixing and polishing for bathrooms, kitchens, and flooring.",
+    imageUrl: "/images/workers/tile worker.png",
+  },
+  {
+    id: "painter-helper",
+    name: "Painter Helper",
+    description: "Assists in painting, cleaning, and surface preparation work.",
+    imageUrl: "/images/workers/helper.png",
+  },
 ];

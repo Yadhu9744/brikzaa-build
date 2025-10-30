@@ -142,7 +142,7 @@ export const materials: Material[] = [
     name: 'Floor Tiles',
     description: 'Ceramic floor tiles for residential and commercial spaces.',
     priceRange: '$8 - $15 / sq.ft',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz_mkys57xW20YhQ8aEYCYwEw4uaowoPQlJQ&s',
+    image: 'https://i.ytimg.com/vi/XH7NwjG6tj4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDsIqJMDmgVcYH8dmBQ-27f8RdN2w',
     gallery: [
       'https://www.porcelaintiles.in/includes/blog/floor-tiles-for-outdoor/swimming-pool.jpg',
       'https://4.imimg.com/data4/VS/QF/MY-3890292/teak-deck-tile-500x500.jpg',
@@ -174,10 +174,10 @@ export const materials: Material[] = [
     name: 'Interior Paint',
     description: 'Premium washable wall paint with low VOC formula.',
     priceRange: '$40 - $60 / gallon',
-    image: 'https://picsum.photos/seed/paint-main/600/400',
+    image: 'https://i.pinimg.com/736x/ed/c1/6c/edc16cc71524c3d795737090cb341424.jpg',
     gallery: [
-      'https://picsum.photos/seed/paint1/600/400',
-      'https://picsum.photos/seed/paint2/600/400'
+      'https://www.shutterstock.com/image-photo/painting-wall-red-room-before-260nw-1854684709.jpg',
+      'https://mythreesonspainting.com/wp-content/uploads/2022/11/183805968_s.jpg'
     ],
     category: 'Finishing',
     unit: 'gallon',
@@ -205,11 +205,11 @@ export const materials: Material[] = [
     name: 'Plywood Sheets',
     description: 'Waterproof plywood for furniture and doors.',
     priceRange: '$40 - $60 / sheet',
-    image: 'https://media.istockphoto.com/id/485719974/photo/eucalyptus-trees.jpg?s=612x612&w=0&k=20&c=JOSLmTWJ7_c1fN753m4HHM6sPeX9WWXvDKOL4cP9yfc=',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2023/12/372138876/TT/UG/GD/12678426/laminate-plywood-sheets-8-x-4.jpg',
     gallery: [
-      'https://5.imimg.com/data5/SELLER/Default/2021/12/HW/KG/SQ/143354869/syp-wood-timber-plank.jpg',
-      'https://www.shutterstock.com/image-photo/perspective-angle-wooden-planks-closeup-260nw-2110133330.jpg',
-      'https://static.vecteezy.com/system/resources/thumbnails/028/560/461/small/a-brown-wood-texture-serves-as-an-abstract-background-photo.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSObUireRpnNRbvzOHDhCGdwCU9FOPYwIAdYA&s',
+      'https://image.made-in-china.com/2f0j00HovbpqNYrDkw/The-Latest-Design-Plywood-Sheet-Melamine-Laminated-Plywood-Wood-Plywood-Boards.webp',
+      'https://images.jdmagicbox.com/quickquotes/images_main/18mm-pre-plywood-laminated-sheets-for-furniture-2222653197-mnwz5t0v.jpg',
     ],
     category: 'Carpentry',
     unit: 'sheet',
@@ -237,10 +237,10 @@ export const materials: Material[] = [
     name: 'PVC Pipes',
     description: 'High-pressure PVC pipes for water supply and drainage.',
     priceRange: '$2 - $5 / meter',
-    image: 'https://picsum.photos/seed/pipes-main/600/400',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2021/9/SU/TR/RG/67262144/pvc-pipes.jpg',
     gallery: [
-      'https://picsum.photos/seed/pipe1/600/400',
-      'https://picsum.photos/seed/pipe2/600/400'
+      'https://images.stockcake.com/public/1/3/9/139b3778-acaa-4983-b86f-33548cc14ff7_large/colorful-pvc-pipes-stockcake.jpg',
+      'https://tiimg.tistatic.com/fp/1/002/406/jindal-pvc-pipes-994.jpg'
     ],
     category: 'Plumbing',
     unit: 'meter',
@@ -268,10 +268,10 @@ export const materials: Material[] = [
     name: 'Galvanized Metal Sheets',
     description: 'Zinc-coated steel sheets for roofing, siding, and industrial use.',
     priceRange: '$50 - $80 / sheet',
-    image: 'https://picsum.photos/seed/metal-main/600/400',
+    image: 'https://bobco-cdn.b-cdn.net/media/magefan_blog/Corrugated_Metal_Sheet.png',
     gallery: [
-      'https://picsum.photos/seed/metal1/600/400',
-      'https://picsum.photos/seed/metal2/600/400'
+      'https://images.jdmagicbox.com/quickquotes/images_main/galvanized-corrugated-sheet-1mm-378135663-bor64.jpg',
+      'https://5.imimg.com/data5/SELLER/Default/2020/12/IQ/TC/OP/43998252/gi-sheet-500x500.jpg'
     ],
     category: 'Metals',
     unit: 'sheet',
@@ -301,10 +301,10 @@ export const materials: Material[] = [
     name: 'Fiberglass Panels',
     description: 'Lightweight, durable panels made from reinforced glass fiber.',
     priceRange: '$30 - $45 / sheet',
-    image: 'https://picsum.photos/seed/fiberglass-main/600/400',
+    image: 'https://preview.redd.it/fiberglass-panels-for-ceilings-v0-juhnjjzdybdd1.jpeg?auto=webp&s=6738cdd88ff161e43360774cdbe21956c01487e0',
     gallery: [
-      'https://picsum.photos/seed/fiber1/600/400',
-      'https://picsum.photos/seed/fiber2/600/400'
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2XLKjnVEcrpz4B0M8n_1CyooHDq5bHshvwQ&s',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ14pkpXhb2KujVGL3r_7vgTDJ0PheNXa5bmA&s'
     ],
     category: 'Composites',
     unit: 'sheet',
@@ -333,10 +333,10 @@ export const materials: Material[] = [
     name: 'Aluminium Sections',
     description: 'High-strength aluminum profiles for windows, doors, and frames.',
     priceRange: '$8 - $15 / kg',
-    image: 'https://picsum.photos/seed/aluminium-main/600/400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXVg2U8MG1Dab_GvWQOl6Fxl59PZVKwi9q_g&s',
     gallery: [
-      'https://picsum.photos/seed/aluminium1/600/400',
-      'https://picsum.photos/seed/aluminium2/600/400'
+      'https://media.istockphoto.com/id/520076919/photo/profiles-for-exhibition-designs.jpg?s=612x612&w=0&k=20&c=BOCa_1i3T4iyfqm9pETc6gU0aSdpmfl5cNnAePhwbI4=',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxw8_xHswHLlTei4MofzyAe6_PeFbKukMJ9Q&s'
     ],
     category: 'Metals',
     unit: 'kg',
@@ -365,10 +365,10 @@ export const materials: Material[] = [
     name: 'Copper Electrical Wire',
     description: 'PVC insulated copper wire for residential electrical systems.',
     priceRange: '$1.5 - $3 / meter',
-    image: 'https://picsum.photos/seed/wire-main/600/400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQlkGRJcyIWiS8Vc6Gtsv_a3F0zuAkQ4nS2g&s',
     gallery: [
-      'https://picsum.photos/seed/wire1/600/400',
-      'https://picsum.photos/seed/wire2/600/400'
+      'https://media.istockphoto.com/id/144327585/photo/cables.jpg?s=612x612&w=0&k=20&c=1IPlJAaeyBmDH9Z7azt3c8KkaBfMSfRZ3wl4ugN9614=',
+      'https://5.imimg.com/data5/SELLER/Default/2023/6/317079999/SO/WD/FR/25663301/pvc-insulated-copper-electrical-wires.jpg'
     ],
     category: 'Electrical',
     unit: 'meter',
@@ -397,10 +397,10 @@ export const materials: Material[] = [
     name: 'Modular Switch Set',
     description: 'Elegant modular switches with shockproof design.',
     priceRange: '$2 - $8 / piece',
-    image: 'https://picsum.photos/seed/switches-main/600/400',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2021/1/BD/UM/HB/2551679/jeoforce-modular-switches-500x500.jpeg',
     gallery: [
-      'https://picsum.photos/seed/switch1/600/400',
-      'https://picsum.photos/seed/switch2/600/400'
+      'https://i.pinimg.com/736x/17/16/21/171621ba13064f341f70e2c0fbd66220.jpg',
+      'https://tiimg.tistatic.com/fp/1/007/674/anchor-rome-black-electric-modern-modular-switches-220-v-for-home-892.jpg'
     ],
     category: 'Electrical',
     unit: 'piece',
@@ -429,10 +429,10 @@ export const materials: Material[] = [
     name: 'Solar Panel Kit',
     description: 'Monocrystalline solar panels for home and office setups.',
     priceRange: '$200 - $400 / panel',
-    image: 'https://picsum.photos/seed/solar-main/600/400',
+    image: 'https://d91ztqmtx7u1k.cloudfront.net/ClientContent/Images/Catalogue/solar-panel-kit-545-watt-20250710133109230.jpeg',
     gallery: [
-      'https://picsum.photos/seed/solar1/600/400',
-      'https://picsum.photos/seed/solar2/600/400'
+      'https://makerbazar.in/cdn/shop/files/solar-panel-500x500.webp?v=1717419106',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFWYzuO7PMdaqWbObYpViNiThFIJ2-jQU6Sw&s'
     ],
     category: 'Electronics',
     unit: 'panel',
@@ -461,10 +461,10 @@ export const materials: Material[] = [
     name: 'LED Ceiling Lights',
     description: 'Energy-efficient LED panels for indoor lighting.',
     priceRange: '$15 - $30 / unit',
-    image: 'https://picsum.photos/seed/led-main/600/400',
+    image: 'https://m.media-amazon.com/images/I/51RRtypu4rL._AC_UF1000,1000_QL80_.jpg',
     gallery: [
-      'https://picsum.photos/seed/led1/600/400',
-      'https://picsum.photos/seed/led2/600/400'
+      'https://www.homedecorcompany.in/cdn/shop/files/IMG_8988.jpg?v=1750456180',
+      'https://in.shop.lighting.philips.com/cdn/shop/files/Saturn_582056_App2.jpg?v=1747311908'
     ],
     category: 'Electronics',
     unit: 'unit',
@@ -493,10 +493,10 @@ export const materials: Material[] = [
     name: 'Smart Home Control Kit',
     description: 'WiFi-enabled kit for controlling lights, fans, and appliances.',
     priceRange: '$150 - $250 / kit',
-    image: 'https://picsum.photos/seed/smarthome-main/600/400',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJY51A0KzgmWGnuuQZNvCchPvVP4rV7BjKIA&s',
     gallery: [
-      'https://picsum.photos/seed/smarthome1/600/400',
-      'https://picsum.photos/seed/smarthome2/600/400'
+      'https://rukminim2.flixcart.com/image/480/640/xif0q/smart-switch/f/e/9/smart-home-control-panel-homemate-original-imagpygg3gtwphqz.jpeg?q=90',
+      'https://img.freepik.com/free-photo/man-holding-tablet-with-lighting-control-application-turning-lights-sitting-kitchen-house_482257-2744.jpg?semt=ais_hybrid&w=740&q=80'
     ],
     category: 'Electronics',
     unit: 'kit',

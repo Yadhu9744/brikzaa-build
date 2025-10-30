@@ -323,9 +323,9 @@ export const companies: Company[] = [
     materialsSupplied: ['copper electrical wire'],
   },
   {
-    id: 'mix1',
-    name: 'BuildPro Suppliers',
-    logo: 'https://play-lh.googleusercontent.com/nWtWwhmihZDUtKnYSTR3FI4q4g2SyhfnJJSIauAntMDaWKsub0aq7ghuiBu1cIUmcYMTL-s4JtEzt_FIECy1',
+    id: 'c_i2',
+    name: 'WireMax India',
+    logo: 'https://picsum.photos/seed/wiremax/120/120',
     location: 'Delhi',
     website: 'https://wiremax.example',
     rating: 4.6,
