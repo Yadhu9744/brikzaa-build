@@ -42,7 +42,7 @@ const FeaturesSection: React.FC = () => {
       ),
       title: 'Find Professionals',
       description: 'Access trusted electricians, plumbers, and architects to build your dream project right.',
-      imageUrl: '/images/home/find.jfif',
+      imageUrl: '/Images/home/find.jfif',
     },
     {
       icon: (
@@ -52,7 +52,7 @@ const FeaturesSection: React.FC = () => {
       ),
       title: 'Source Materials',
       description: 'Find top-quality materials from verified suppliers at the best prices.',
-      imageUrl: '/images/home/source.jfif',
+      imageUrl: '/Images/home/source.jfif',
     },
     {
       icon: (
@@ -62,7 +62,7 @@ const FeaturesSection: React.FC = () => {
       ),
       title: 'Manage Projects',
       description: 'Track progress, manage workers, and handle tasks seamlessly in one place.',
-      imageUrl: '/images/home/manage.jfif',
+      imageUrl: '/Images/home/manage.jfif',
     },
     {
       icon: (
@@ -72,7 +72,7 @@ const FeaturesSection: React.FC = () => {
       ),
       title: 'Secure Payments',
       description: 'Pay safely and quickly — ensuring trust between clients and professionals.',
-      imageUrl: '/images/home/secure.jfif',
+      imageUrl: '/Images/home/secure.jfif',
     },
   ];
 

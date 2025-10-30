@@ -3,21 +3,24 @@ import FeaturesSection from "@/components/FeaturesSection";
 
 const slides = [
   {
-    bgImage: "url('https://t3.ftcdn.net/jpg/01/88/67/32/360_F_188673280_69cCvYgLg03JsTWTEuKq1duuNHn3amWW.jpg')",
+    bgImage:
+      "url('https://t3.ftcdn.net/jpg/01/88/67/32/360_F_188673280_69cCvYgLg03JsTWTEuKq1duuNHn3amWW.jpg')",
     titleLine1: "Your One-Stop Hub for",
     titleLine2: "Construction Needs",
     description:
       "Connecting skilled labor, quality materials, and professional services. Build your next project with confidence.",
   },
   {
-    bgImage: "url(https://media.istockphoto.com/id/1334348884/photo/destruction-of-old-house-by-excavator-with-lot-of-dust-bucket-of-excavator-breaks-concrete.jpg?s=612x612&w=0&k=20&c=MJ2NIhAJsxAG3ij695hvnuIFxj-T4s99MXFk1bdOfSk=)",
+    bgImage:
+      "url(https://media.istockphoto.com/id/1334348884/photo/destruction-of-old-house-by-excavator-with-lot-of-dust-bucket-of-excavator-breaks-concrete.jpg?s=612x612&w=0&k=20&c=MJ2NIhAJsxAG3ij695hvnuIFxj-T4s99MXFk1bdOfSk=)",
     titleLine1: "Find Vetted & Skilled",
     titleLine2: "Professionals",
     description:
       "From architects to electricians, access our network of trusted experts to ensure your project is in good hands.",
   },
   {
-    bgImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3TICLycBqJj4zLsTPAsYIbdpoi7MkDpo9HQ&s')",
+    bgImage:
+      "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3TICLycBqJj4zLsTPAsYIbdpoi7MkDpo9HQ&s')",
     titleLine1: "Source High-Quality",
     titleLine2: "Building Materials",
     description:
@@ -52,8 +55,7 @@ const HomePage: React.FC = () => {
           <div
             key={index}
             className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
-            index === currentSlide ? "opacity-80" : "opacity-0"
-
+              index === currentSlide ? "opacity-80" : "opacity-0"
             }`}
             style={{ backgroundImage: slide.bgImage }}
           ></div>
@@ -69,9 +71,8 @@ const HomePage: React.FC = () => {
               <div
                 key={index}
                 className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
-  index === currentSlide ? "opacity-100" : "opacity-0"
-}`}
-
+                  index === currentSlide ? "opacity-100" : "opacity-0"
+                }`}
               >
                 <h1 className="text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white sm:text-5xl md:text-6xl">
                   <span className="block">{slide.titleLine1}</span>
@@ -116,7 +117,12 @@ const HomePage: React.FC = () => {
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M15 19l-7-7 7-7"
+            />
           </svg>
         </button>
         <button
@@ -131,7 +137,12 @@ const HomePage: React.FC = () => {
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 5l7 7-7 7"
+            />
           </svg>
         </button>
 
@@ -155,100 +166,117 @@ const HomePage: React.FC = () => {
       {/* ================= ABOUT SECTION ================= */}
       <section className="py-16 sm:py-24 px-4 sm:px-8 lg:px-16 bg-gradient-to-b from-white to-orange-50 dark:from-slate-800 dark:to-slate-900">
         <div className="max-w-6xl mx-auto text-center mb-12">
-         
-          
           <h3 className="mt-3 text-4xl sm:text-5xl font-extrabold text-slate-900 dark:text-white">
             Building a <span className="text-orange-600">Better Network</span>
           </h3>
           <p className="mt-6 max-w-2xl mx-auto text-lg text-slate-600 dark:text-slate-300">
-            Construction Connect was created to revolutionize the construction industry — 
-            connecting people, materials, and opportunities under one digital roof.
+            Construction Connect was created to revolutionize the construction
+            industry — connecting people, materials, and opportunities under one
+            digital roof.
           </p>
         </div>
 
         {/* Mission & Vision */}
         {/* Mission & Vision Section - Timeline Style */}
-<div className="relative max-w-5xl mx-auto px-4 py-16">
-  {/* Timeline Line */}
-  <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-1 bg-orange-200 dark:bg-slate-700 h-full rounded-full"></div>
+        <div className="relative max-w-5xl mx-auto px-4 py-16">
+          {/* Timeline Line */}
+          <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-1 bg-orange-200 dark:bg-slate-700 h-full rounded-full"></div>
 
-  {/* Mission Section */}
-  <div className="mb-20 flex flex-col md:flex-row items-center md:items-start relative">
-    {/* Left content (text) */}
-    <div className="md:w-1/2 md:pr-10 text-left md:text-right">
-      <h3 className="text-3xl font-bold text-orange-600">🎯 Our Mission</h3>
-      <p className="mt-4 text-lg font-medium text-slate-700 dark:text-slate-300 leading-relaxed">
-        To bridge the gap between <span className="font-semibold text-orange-500">workers</span>, 
-        <span className="font-semibold text-orange-500"> suppliers</span>, and 
-        <span className="font-semibold text-orange-500"> contractors</span> — enabling 
-        collaboration, transparency, and growth in the construction industry.
-      </p>
-    </div>
+          {/* Mission Section */}
+          <div className="mb-20 flex flex-col md:flex-row items-center md:items-start relative">
+            {/* Left content (text) */}
+            <div className="md:w-1/2 md:pr-10 text-left md:text-right">
+              <h3 className="text-3xl font-bold text-orange-600">
+                🎯 Our Mission
+              </h3>
+              <p className="mt-4 text-lg font-medium text-slate-700 dark:text-slate-300 leading-relaxed">
+                To bridge the gap between{" "}
+                <span className="font-semibold text-orange-500">workers</span>,
+                <span className="font-semibold text-orange-500">
+                  {" "}
+                  suppliers
+                </span>
+                , and
+                <span className="font-semibold text-orange-500">
+                  {" "}
+                  contractors
+                </span>{" "}
+                — enabling collaboration, transparency, and growth in the
+                construction industry.
+              </p>
+            </div>
 
-    {/* Dot */}
-    <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-6 h-6 bg-orange-500 border-4 border-white dark:border-slate-800 rounded-full z-10 shadow-md"></div>
+            {/* Dot */}
+            <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-6 h-6 bg-orange-500 border-4 border-white dark:border-slate-800 rounded-full z-10 shadow-md"></div>
 
-    {/* Empty right spacer */}
-    <div className="hidden md:block md:w-1/2"></div>
-  </div>
+            {/* Empty right spacer */}
+            <div className="hidden md:block md:w-1/2"></div>
+          </div>
 
-  {/* Vision Section */}
-  <div className="flex flex-col md:flex-row items-center md:items-start relative">
-    {/* Empty left spacer */}
-    <div className="hidden md:block md:w-1/2"></div>
+          {/* Vision Section */}
+          <div className="flex flex-col md:flex-row items-center md:items-start relative">
+            {/* Empty left spacer */}
+            <div className="hidden md:block md:w-1/2"></div>
 
-    {/* Dot */}
-    <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-6 h-6 bg-orange-500 border-4 border-white dark:border-slate-800 rounded-full z-10 shadow-md"></div>
+            {/* Dot */}
+            <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-6 h-6 bg-orange-500 border-4 border-white dark:border-slate-800 rounded-full z-10 shadow-md"></div>
 
-    {/* Right content (text) */}
-    <div className="md:w-1/2 md:pl-10 text-left">
-      <h3 className="text-3xl font-bold text-orange-600">🔭 Our Vision</h3>
-      <p className="mt-4 text-lg font-medium text-slate-700 dark:text-slate-300 leading-relaxed">
-        To become the global digital hub where the entire 
-        <span className="font-semibold text-orange-500"> construction community</span> 
-        connects, collaborates, and builds a 
-        <span className="font-semibold text-orange-500"> sustainable future.</span>
-      </p>
-    </div>
-  </div>
-</div>
-
-
+            {/* Right content (text) */}
+            <div className="md:w-1/2 md:pl-10 text-left">
+              <h3 className="text-3xl font-bold text-orange-600">
+                🔭 Our Vision
+              </h3>
+              <p className="mt-4 text-lg font-medium text-slate-700 dark:text-slate-300 leading-relaxed">
+                To become the global digital hub where the entire
+                <span className="font-semibold text-orange-500">
+                  {" "}
+                  construction community
+                </span>
+                connects, collaborates, and builds a
+                <span className="font-semibold text-orange-500">
+                  {" "}
+                  sustainable future.
+                </span>
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* ================= FEATURES SECTION ================= */}
       <FeaturesSection />
 
-      
       {/* ================= STORY SECTION ================= */}
       <section className="relative py-20 bg-gradient-to-b from-orange-50 via-white to-orange-100 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900">
-  <div className="relative max-w-4xl mx-auto text-center px-6">
-    {/* Decorative glow */}
-    <div className="absolute inset-0 flex justify-center items-center">
-      <div className="w-80 h-80 bg-gradient-to-tr from-orange-100 to-yellow-50 dark:from-orange-900/30 dark:to-yellow-900/20 rounded-full blur-3xl opacity-50 animate-pulse"></div>
-    </div>
+        <div className="relative max-w-4xl mx-auto text-center px-6">
+          {/* Decorative glow */}
+          <div className="absolute inset-0 flex justify-center items-center">
+            <div className="w-80 h-80 bg-gradient-to-tr from-orange-100 to-yellow-50 dark:from-orange-900/30 dark:to-yellow-900/20 rounded-full blur-3xl opacity-50 animate-pulse"></div>
+          </div>
 
-    {/* Story content */}
-    <div className="relative bg-white/70 dark:bg-slate-800/70 backdrop-blur-lg rounded-3xl shadow-2xl p-10 border border-orange-200/60 dark:border-orange-700/40 hover:shadow-orange-100/40 transition-shadow duration-300">
-      <h3 className="text-3xl font-bold text-slate-900 dark:text-white mb-6">
-        Why We Started
-      </h3>
-      <p className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed mb-4">
-        In today’s fast-paced construction industry, time and connections are everything. 
-        We saw skilled professionals struggling to find opportunities and companies 
-        struggling to find reliable talent. That’s why 
-        <span className="font-semibold text-orange-600 dark:text-orange-400">
-          {" "}Construction Connect{" "}
-        </span> 
-        was built — to bring everyone together efficiently and transparently.
-      </p>
-      <p className="italic text-orange-700 dark:text-orange-400 mt-4">
-        “Every great structure begins with the right people.”
-      </p>
-    </div>
-  </div>
-</section>
-
+          {/* Story content */}
+          <div className="relative bg-white/70 dark:bg-slate-800/70 backdrop-blur-lg rounded-3xl shadow-2xl p-10 border border-orange-200/60 dark:border-orange-700/40 hover:shadow-orange-100/40 transition-shadow duration-300">
+            <h3 className="text-3xl font-bold text-slate-900 dark:text-white mb-6">
+              Why We Started
+            </h3>
+            <p className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed mb-4">
+              In today’s fast-paced construction industry, time and connections
+              are everything. We saw skilled professionals struggling to find
+              opportunities and companies struggling to find reliable talent.
+              That’s why
+              <span className="font-semibold text-orange-600 dark:text-orange-400">
+                {" "}
+                Construction Connect{" "}
+              </span>
+              was built — to bring everyone together efficiently and
+              transparently.
+            </p>
+            <p className="italic text-orange-700 dark:text-orange-400 mt-4">
+              “Every great structure begins with the right people.”
+            </p>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

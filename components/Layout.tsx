@@ -34,8 +34,8 @@ const Navbar: React.FC = () => {
                 alt="Brikza Logo"
                 className="h-10 w-auto object-contain"
               />
-              <h1 className="font-extrabold text-4xl tracking-wide text-[#001F3F] -ml-2">
-                rikza
+              <h1 className="font-extrabold text-4xl tracking-wide text-[#184678] -ml-2">
+                uild<span className='text-yellow-600'>smarter</span> 
               </h1>
             </Link>
           </div>
