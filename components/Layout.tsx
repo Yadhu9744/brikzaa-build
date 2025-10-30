@@ -41,21 +41,12 @@ const Navbar: React.FC = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
-              <NavLink to="/" className={navLinkClass}>
-                Home
-              </NavLink>
-              <NavLink to="/about" className={navLinkClass}>
-                About
-              </NavLink>
-              <NavLink to="/materials" className={navLinkClass}>
-                Materials
-              </NavLink>
-              <NavLink to="/services" className={navLinkClass}>
-                Services
-              </NavLink>
-              <NavLink to="/contact" className={navLinkClass}>
-                Contact
-              </NavLink>
+              <NavLink to="/" className={navLinkClass}>Home</NavLink>
+              <NavLink to="/about" className={navLinkClass}>About</NavLink>
+              <NavLink to="/materials" className={navLinkClass}>Materials</NavLink>
+              <NavLink to="/services" className={navLinkClass}>Services</NavLink>
+              <NavLink to="/contact" className={navLinkClass}>Contact</NavLink>
+              <NavLink to="/cart" className={navLinkClass}>Cart</NavLink>
             </div>
           </div>
           <div className="flex items-center">

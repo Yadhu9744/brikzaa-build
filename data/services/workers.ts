@@ -1,21 +1,4 @@
-
-import type { Material, Service, Worker } from './types';
-import { HammerIcon, WrenchIcon, BoltIcon, PaintBrushIcon, HardHatIcon } from './components/Icons';
-
-export const materials: Material[] = [
-  { id: 'sand', name: 'Sand', description: 'High-quality river sand for all construction purposes.', priceRange: '$20 - $30 / ton', image: 'https://picsum.photos/seed/sand/400/300' },
-  { id: 'cement', name: 'Cement', description: 'Portland cement for strong and durable concrete.', priceRange: '$10 - $15 / bag', image: 'https://picsum.photos/seed/cement/400/300' },
-  { id: 'steel', name: 'Steel Rods', description: 'Reinforced steel rods for structural integrity.', priceRange: '$500 - $700 / ton', image: 'https://picsum.photos/seed/steel/400/300' },
-  { id: 'bricks', name: 'Bricks', description: 'Clay bricks for walling and paving.', priceRange: '$0.50 - $1.00 / brick', image: 'https://picsum.photos/seed/bricks/400/300' },
-];
-
-export const services: Service[] = [
-  { id: 'plumber', name: 'Plumber', description: 'Expert plumbing installation and repair services.', icon: WrenchIcon },
-  { id: 'electrician', name: 'Electrician', description: 'Certified electrical wiring and fixture installation.', icon: BoltIcon },
-  { id: 'mason', name: 'Mason', description: 'Skilled masonry for brickwork and concrete.', icon: HardHatIcon },
-  { id: 'carpenter', name: 'Carpenter', description: 'Custom carpentry for framing and finishing.', icon: HammerIcon },
-  { id: 'painter', name: 'Painter', description: 'Professional interior and exterior painting.', icon: PaintBrushIcon },
-];
+import { Worker } from "../../types";
 
 export const workers: Worker[] = [
   // Plumbers
