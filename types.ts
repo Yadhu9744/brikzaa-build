@@ -51,10 +51,12 @@ export interface ContactInfo {
 }
 
 export interface Service {
+    
   id: string;
   name: string;
   description: string;
-  icon: React.ComponentType<{ className?: string }>;
+  imageUrl: string;
+ bio?: string;
 }
 
 export interface Worker {
@@ -66,6 +68,9 @@ export interface Worker {
   phone: string;
   avatar: string;
   specialties: string[];
+  bio?: string;
+  projects?: string[];
+  reviews?: { name: string; text: string }[];
 }
 
 export interface CartItem {
