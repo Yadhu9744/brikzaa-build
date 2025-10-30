@@ -264,7 +264,7 @@ export const materials: Material[] = [
     usageTips: 'Use solvent cement for leak-proof joints.'
   },
    {
-    id: 'metal-sheets',
+    id: 'metal sheets',
     name: 'Galvanized Metal Sheets',
     description: 'Zinc-coated steel sheets for roofing, siding, and industrial use.',
     priceRange: '$50 - $80 / sheet',
@@ -297,7 +297,7 @@ export const materials: Material[] = [
   },
 
   {
-    id: 'fiber-glass',
+    id: 'fiberglass panels',
     name: 'Fiberglass Panels',
     description: 'Lightweight, durable panels made from reinforced glass fiber.',
     priceRange: '$30 - $45 / sheet',
@@ -329,7 +329,7 @@ export const materials: Material[] = [
   },
 
   {
-    id: 'aluminium',
+    id: 'aluminium section',
     name: 'Aluminium Sections',
     description: 'High-strength aluminum profiles for windows, doors, and frames.',
     priceRange: '$8 - $15 / kg',
@@ -361,7 +361,7 @@ export const materials: Material[] = [
   },
 
   {
-    id: 'electrical-wire',
+    id: 'copper electrical wire',
     name: 'Copper Electrical Wire',
     description: 'PVC insulated copper wire for residential electrical systems.',
     priceRange: '$1.5 - $3 / meter',
@@ -393,7 +393,7 @@ export const materials: Material[] = [
   },
 
   {
-    id: 'switches',
+    id: 'modular switch set',
     name: 'Modular Switch Set',
     description: 'Elegant modular switches with shockproof design.',
     priceRange: '$2 - $8 / piece',
@@ -425,7 +425,7 @@ export const materials: Material[] = [
   },
 
   {
-    id: 'solar-panel',
+    id: 'solar panel kit',
     name: 'Solar Panel Kit',
     description: 'Monocrystalline solar panels for home and office setups.',
     priceRange: '$200 - $400 / panel',
@@ -457,7 +457,7 @@ export const materials: Material[] = [
   },
 
   {
-    id: 'led-lights',
+    id: 'led ceiling lights',
     name: 'LED Ceiling Lights',
     description: 'Energy-efficient LED panels for indoor lighting.',
     priceRange: '$15 - $30 / unit',
@@ -489,7 +489,7 @@ export const materials: Material[] = [
   },
 
   {
-    id: 'smart-home-kit',
+    id: 'smart home control kit',
     name: 'Smart Home Control Kit',
     description: 'WiFi-enabled kit for controlling lights, fans, and appliances.',
     priceRange: '$150 - $250 / kit',
