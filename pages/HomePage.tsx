@@ -20,7 +20,7 @@ const slides = [
   },
   {
     bgImage:
-      "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3TICLycBqJj4zLsTPAsYIbdpoi7MkDpo9HQ&s')",
+      "url('https://media.istockphoto.com/id/838476004/photo/silhouette-of-engineer-and-construction-team-working-safely-work-load-concrete-on-scaffolding.jpg?s=1024x1024&w=is&k=20&c=msYhReMbJ9CqoE_NvstR7V1apuUJv3J3cM3FE1kTTYQ=')",
     titleLine1: "Source High-Quality",
     titleLine2: "Building Materials",
     description:
