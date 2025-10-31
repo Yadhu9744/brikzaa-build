@@ -14,11 +14,11 @@ const ContactPageFinalWorking: React.FC = () => {
   // Correct Google Maps Embed URL (only the URL string)
   const mapEmbedUrl ="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4199.318510144879!2d75.36951017537469!3d11.873644188349873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba43fb1ee97011b%3A0x136ebf6d776a9b47!2sUpcode%20Software%20Labs%20-%20AI%20Software%20Development%20Training%20-%20Kannur!5e1!3m2!1sen!2sin!4v1761731944044!5m2!1sen!2sin" ,width="600" ,height="450" ,style="border:0;" ,allowfullscreen="" ,loading="lazy" ,referrerpolicy="no-referrer-when-downgrade"; 
 
-  // Image path for your local file: public/Images/contactpage.png (or .jpg as previously used)
+  // Image path for your local file: public/images/contactpage.png (or .jpg as previously used)
   // Note: I'm reverting to the last confirmed link as the local file path was causing issues,
-  // but if you have the file 'contactpage.png' in public/Images, the path '/Images/contactpage.png' is correct.
+  // but if you have the file 'contactpage.png' in public/images, the path '/images/contactpage.png' is correct.
   // Using the successful link from the previous step for demonstration:
-  const backgroundImageURL = "/Public/Images/contactpage.jpg"; 
+  const backgroundImageURL = "/Public/images/contactpage.jpg"; 
 
   // --- Form Submission Logic ---
   const handleSubmit = (e: React.FormEvent) => {
