@@ -27,7 +27,7 @@ const AboutPage: React.FC = () => {
             {/* Mission */}
             <div
               className="relative rounded-3xl shadow-xl ring-4 ring-orange-200 dark:ring-orange-800/50 hover:shadow-2xl transition-all duration-500 overflow-hidden bg-cover bg-center"
-              style={{ backgroundImage: "url('../../assests/aboutpic/aboutus.jpg')" }}
+              style={{ backgroundImage: "url('/images/aboutpic/aboutus.jpg')" }}
             >
               <div className="absolute inset-0 bg-white/50 dark:bg-slate-900/80"></div>
               <div className="relative z-10 p-6 sm:p-8 lg:p-10">
@@ -47,7 +47,7 @@ const AboutPage: React.FC = () => {
             {/* Vision */}
             <div
               className="relative rounded-3xl shadow-xl ring-4 ring-orange-200 dark:ring-orange-800/50 hover:shadow-2xl transition-all duration-500 overflow-hidden bg-cover bg-center"
-              style={{ backgroundImage: "url('../../assests/aboutpic/aboutus1.jpg')" }}
+              style={{ backgroundImage: "url('/images/aboutpic/aboutus1.jpg')" }}
             >
               <div className="absolute inset-0 bg-white/50 dark:bg-slate-900/80"></div>
               <div className="relative z-10 p-6 sm:p-8 lg:p-10">
@@ -80,7 +80,7 @@ const AboutPage: React.FC = () => {
             {/* Efficiency */}
             <div
               className="relative p-6 sm:p-8 rounded-2xl shadow-lg border-t-8 border-orange-500/70 hover:shadow-2xl transition-all duration-500 overflow-hidden bg-cover bg-center"
-              style={{ backgroundImage: "url('../../assests/aboutpic/efficiency.jpg')" }}
+              style={{ backgroundImage: "url('/images/aboutpic/efficiency.jpg')" }}
             >
               <div className="absolute inset-0 bg-white/60 dark:bg-slate-900/80"></div>
               <div className="relative z-10 text-center sm:text-left">
@@ -104,7 +104,7 @@ const AboutPage: React.FC = () => {
             {/* Integrity */}
             <div
               className="relative p-6 sm:p-8 rounded-2xl shadow-lg border-t-8 border-orange-500/70 hover:shadow-2xl transition-all duration-500 overflow-hidden bg-cover bg-center"
-              style={{ backgroundImage: "url('../../assests/aboutpic/integrity.jpg')" }}
+              style={{ backgroundImage: "url('/images/aboutpic/integrity.jpg')" }}
             >
               <div className="absolute inset-0 bg-white/60 dark:bg-slate-900/80"></div>
               <div className="relative z-10 text-center sm:text-left">
@@ -128,7 +128,7 @@ const AboutPage: React.FC = () => {
             {/* Partnership */}
             <div
               className="relative p-6 sm:p-8 rounded-2xl shadow-lg border-t-8 border-orange-500/70 hover:shadow-2xl transition-all duration-500 overflow-hidden bg-cover bg-center"
-              style={{ backgroundImage: "url('../../assests/aboutpic/partners.jpg')" }}
+              style={{ backgroundImage: "url('/images/aboutpic/partners.jpg')" }}
             >
               <div className="absolute inset-0 bg-white/60 dark:bg-slate-900/80"></div>
               <div className="relative z-10 text-center sm:text-left">
