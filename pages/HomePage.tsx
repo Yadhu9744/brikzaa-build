@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import FeaturesSection from "@/components/FeaturesSection";
+import FeaturesSection from "../components/FeaturesSection";
 
 const slides = [
   {
     bgImage:
-      "url('https://t3.ftcdn.net/jpg/01/88/67/32/360_F_188673280_69cCvYgLg03JsTWTEuKq1duuNHn3amWW.jpg')",
+      "url('https://static.vecteezy.com/system/resources/thumbnails/028/642/325/small/professional-engineer-in-protective-helmet-and-blueprints-paper-at-house-building-construction-site-photo.jpg')",
     titleLine1: "Your One-Stop Hub for",
     titleLine2: "Construction Needs",
     description:

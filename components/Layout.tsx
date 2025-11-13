@@ -4,6 +4,7 @@ import { NavLink, Link, useNavigate } from 'react-router-dom';
 import { useTheme } from '../hooks';
 import { useAuth } from '../hooks';
 import { SunIcon,  HammerIcon, MoonIcon } from './Icons';
+// import logo from "../assests/logo1.jpg"
 
 const Navbar: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
@@ -30,7 +31,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center gap-1">
               <img
-                src="/images/home/logo1.jpg"
+                src="../assests/logo1.jpg"
                 alt="Brikza Logo"
                 className="h-10 w-auto object-contain"
               />
