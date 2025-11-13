@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center gap-1">
               <img
-                src="../assests/logo1.jpg"
+                src="/images/home/logo1.jpg"
                 alt="Brikza Logo"
                 className="h-10 w-auto object-contain"
               />
