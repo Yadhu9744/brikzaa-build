@@ -10,7 +10,10 @@ export default defineConfig(({ mode }) => {
       host: '0.0.0.0',
     },
     preview: {
-      allowedHosts: ['brikzaa-build.onrender.com'],
+      allowedHosts: [
+        'brikzaa-build.onrender.com',
+        'brikzaa-build-1.onrender.com'
+      ],
     },
     plugins: [react()],
     define: {
